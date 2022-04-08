@@ -16,6 +16,10 @@ header {
   text-align: center;
 }
 
+.container #submit {
+  justify-content: center;
+}
+
 form.searchFieldSubtitution {
   width: 50%;
 }
@@ -32,17 +36,15 @@ form.searchFieldSubtitution input[type=text] {
 
 /*form.searchFieldSubtitution*/
 button {
-  float: left;
   width: 10%;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   background: #FEF083;
   color: black;
   font-size: 17px;
   border: 1px solid grey;
   border-radius: 0px 8px 8px 0px;
   cursor: pointer;
-
 }
 
 button:hover {
@@ -86,8 +88,7 @@ form.searchFieldSubtitution::after {
   /* Add a border to all links */
   margin-top: -1px;
   /* Prevent double borders */
-  background-color: #f6f6f6;
-  /* Grey background color */
+
   padding: 12px;
   /* Add some padding */
   text-decoration: none;
@@ -101,6 +102,6 @@ form.searchFieldSubtitution::after {
 }
 
 #myUL li a:hover:not(.header) {
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
   /* Add a hover effect to all links, except for headers */
 }
