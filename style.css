@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: 'Monserrat';
 }
 
 * {
@@ -30,7 +30,8 @@ form.searchFieldSubtitution input[type=text] {
   border-radius: 8px 0px 0px 8px;
 }
 
-form.searchFieldSubtitution button {
+/*form.searchFieldSubtitution*/
+button {
   float: left;
   width: 10%;
   padding: 10px;
@@ -41,6 +42,11 @@ form.searchFieldSubtitution button {
   border: 1px solid grey;
   border-radius: 0px 8px 8px 0px;
   cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #f8e765;
 }
 
 form.searchFieldSubtitution::after {
