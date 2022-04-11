@@ -15,25 +15,33 @@
   <header>Find your substitute ingredient</header>
 
   <div class="container">
-
-    <form class="searchFieldSubtitution" action="action_page.php">
-      <input type="text" id="myInput" placeholder="Write your ingredient.." name="search" onkeyup="dropDownFunction()">
-      <ul id="myUL">
-        <li><a href="#">Ananas</a></li>
-        <li><a href="#">Banan</a></li>
-        <li><a href="#">Citron</a></li>
-        <li><a href="#">Dadlar</a></li>
-        <li><a href="#">Druvor</a></li>
-        <li><a href="#">Majs</a></li>
-        <li><a href="#">Mejram</a></li>
-        <li><a href="#">Mjöl</a></li>
-        <li><a href="#">Päron</a></li>
-        <li><a href="#">Peppar</a></li>
-      </ul>
-    </form>
-    <button type="submit">
-      <i class="fa fa-search"></i>
-    </button>
+    <div>
+      <form class="searchFieldSubtitution" action="action_page.php">
+        <div class="searchBar">
+          <input type="text" id="myInput" placeholder="Write your ingredient.." name="search"
+            onkeyup="dropDownFunction()">
+        </div>
+        <div class="dropDown">
+          <ul id="myUL">
+            <li><a href="#">Ananas</a></li>
+            <li><a href="#">Banan</a></li>
+            <li><a href="#">Citron</a></li>
+            <li><a href="#">Dadlar</a></li>
+            <li><a href="#">Druvor</a></li>
+            <li><a href="#">Majs</a></li>
+            <li><a href="#">Mejram</a></li>
+            <li><a href="#">Mjöl</a></li>
+            <li><a href="#">Päron</a></li>
+            <li><a href="#">Peppar</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div>
+      <button type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
   </div>
 </body>
 

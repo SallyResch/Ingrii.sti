@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
 body {
   font-family: 'Monserrat';
 }
@@ -34,9 +36,9 @@ form.searchFieldSubtitution input[type=text] {
   border-radius: 8px 0px 0px 8px;
 }
 
-/*form.searchFieldSubtitution*/
+
 button {
-  width: 10%;
+  width: 5%;
   padding: 10px;
   text-align: center;
   background: #FEF083;
@@ -58,7 +60,6 @@ form.searchFieldSubtitution::after {
 }
 
 #myInput {
-  /* Do not repeat the icon image */
   width: 100%;
   /* Full-width */
   font-size: 16px;
