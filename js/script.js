@@ -17,11 +17,22 @@ inputBox.onkeyup = (e) => {
       return data = '<li>' + data + '</li>';
     });
     console.log(emptyArray);
-    searchWrapper.classList.add("active");
+    searchWrapper.classList.add("active"); //show autocomplete box
+    showSuggestions(emptyArray);
+    let allList = suggBox.querySelectorAll("li");
+    for (let i = 0; i < allList.length; i++) {
+      //adding onclick attribute in all li tags
+      allList[i].setAttribute("onclick", "select(this)");
+    }
   } else {
-
+    searchWrapper.classList.remove("active"); //hide autocomplete box
   }
-  showSuggestions(emptyArray);
+}
+
+function select(element) {
+  let selectUserData = element.textContent;
+  inputBox.value = selectUserData; //Passing the user selected list item data in textfield
+  searchWrapper.classList.remove("active"); //hide autocomplete box
 }
 
 function showSuggestions(list) {
