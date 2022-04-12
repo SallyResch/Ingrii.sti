@@ -8,8 +8,8 @@
 }
 
 body {
-  background: grey;
-  padding: 0 20px;
+  background: rgb(147, 147, 147);
+  padding: 0px 20px;
 }
 
 .header {
@@ -28,10 +28,9 @@ input ::placeholder {
 
 .wrapper .search-input {
   position: relative;
-  background: #fff;
+  background: rgb(255, 254, 254);
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0px 1px 5px 3px rgb(78, 77, 77);
 }
 
 .search-input input {
@@ -41,7 +40,8 @@ input ::placeholder {
   border: none;
   border-radius: 5px;
   padding: 0 60px 0 20px;
-  font-size: 18px;
+  font-size: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .search-input .icon {
@@ -55,6 +55,32 @@ input ::placeholder {
   font-size: 20px;
   color: black;
   cursor: pointer;
+  background-color: #FEF083;
+  border-radius: 0 8px 8px 0px;
 }
 
-.search-input .autocom-box {}
+.search-input .icon:hover {
+  background: #fded75;
+}
+
+.search-input .autocom-box {
+  /*padding: 10px 8px;*/
+  max-height: 280px;
+  overflow-y: auto;
+  box-shadow: 0px 1px 5px 3px rgb(110, 110, 110);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.autocom-box li {
+  list-style: none;
+  padding: 8px 12px;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+  display: none;
+}
+
+.autocom-box li:hover {
+  background: #efefef;
+}
