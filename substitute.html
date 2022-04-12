@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="substitute.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Substitute ingredient</title>
+</head>
+
+<body>
+  <header>Find your substitute ingredient</header>
+
+  <div class="container">
+    <div>
+      <form class="searchFieldSubtitution" action="action_page.php">
+        <div class="searchBar">
+          <input type="text" id="myInput" placeholder="Write your ingredient.." name="search"
+            onkeyup="dropDownFunction()">
+        </div>
+        <div class="dropDown">
+          <ul id="myUL">
+            <li><a href="#">Ananas</a></li>
+            <li><a href="#">Banan</a></li>
+            <li><a href="#">Citron</a></li>
+            <li><a href="#">Dadlar</a></li>
+            <li><a href="#">Druvor</a></li>
+            <li><a href="#">Majs</a></li>
+            <li><a href="#">Mejram</a></li>
+            <li><a href="#">Mjöl</a></li>
+            <li><a href="#">Päron</a></li>
+            <li><a href="#">Peppar</a></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div>
+      <button type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>

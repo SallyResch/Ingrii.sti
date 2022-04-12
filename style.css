@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
+body {
+  font-family: 'Monserrat';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  color: #FEF083;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.container #submit {
+  justify-content: center;
+}
+
+form.searchFieldSubtitution {
+  width: 40%;
+}
+
+form.searchFieldSubtitution input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 8px 0px 0px 8px;
+}
+
+
+button {
+  width: 5%;
+  padding: 10px;
+  text-align: center;
+  background: #FEF083;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f8e765;
+}
+
+form.searchFieldSubtitution::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#myInput {
+  width: 100%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  margin-bottom: 12px;
+  /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  /* Add a border to all links */
+  margin-top: -1px;
+  /* Prevent double borders */
+
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove default text underline */
+  font-size: 18px;
+  /* Increase the font-size */
+  color: black;
+  /* Add a black text color */
+  display: block;
+  /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: rgb(255, 255, 255);
+  /* Add a hover effect to all links, except for headers */
+}
