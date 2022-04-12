@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
+* {}
+
+body {
+  background: grey;
+}
+
 .header {
   color: #FEF083;
   text-align: center;
-
+  font-family: 'Armata', sans-serif;
 }
