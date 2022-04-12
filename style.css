@@ -72,6 +72,12 @@ input ::placeholder {
   pointer-events: none;
 }
 
+.search-input.active .autocom-box {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .autocom-box li {
   list-style: none;
   padding: 8px 12px;
@@ -79,6 +85,10 @@ input ::placeholder {
   cursor: default;
   border-radius: 3px;
   display: none;
+}
+
+.search-input.active .autocom-box li {
+  display: block;
 }
 
 .autocom-box li:hover {
