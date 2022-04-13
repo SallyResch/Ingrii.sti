@@ -13,9 +13,13 @@ body {
 }
 
 .header {
+  padding-top: 100px;
+}
+
+.text .Substitute {
   color: #FEF083;
   text-align: center;
-  padding-top: 100px;
+
 }
 
 input ::placeholder {
