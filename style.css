@@ -1,0 +1,13 @@
+body {
+  background-image: url(cutecouple.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+
+.container #BackgroundColor {
+
+  background-color: white;
+
+}
