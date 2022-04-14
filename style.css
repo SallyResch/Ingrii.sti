@@ -8,7 +8,9 @@
 }
 
 body {
-  background: rgb(147, 147, 147);
+  background-image: url('Skärmavbild\ 2022-04-02\ kl.\ 22.57.09defe92296e781fbce6ef47524cb39171299e115ecf977dc45e6639b5d64e6f27.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0px 20px;
 }
 
