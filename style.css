@@ -21,7 +21,8 @@ body {
 .text .Substitute {
   color: #FEF083;
   text-align: center;
-
+  padding-bottom: 0;
+  padding-top: 30px;
 }
 
 input ::placeholder {
